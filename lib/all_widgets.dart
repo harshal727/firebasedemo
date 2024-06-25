@@ -19,30 +19,30 @@ class _AllWidgetsState extends State<AllWidgets> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: PreferredSize(
-      //   preferredSize: const Size.fromHeight(80),
-      //   child: Container(
-      //     height: 120,
-      //     decoration: const BoxDecoration(
-      //         gradient:
-      //             LinearGradient(colors: [Colors.orangeAccent, Colors.green])),
-      //     child: Center(
-      //       child: ListTile(
-      //         trailing: IconButton(
-      //             onPressed: () {},
-      //             icon: const Icon(
-      //               Icons.search_rounded,
-      //               color: Colors.white,
-      //               size: 30,
-      //             )),
-      //         title: const Text(
-      //           "All Widgets",
-      //           style: TextStyle(color: Colors.white, fontSize: 22),
-      //         ),
-      //       ),
-      //     ),
-      //   ),
-      // ),
+      appBar: PreferredSize(
+        preferredSize: const Size.fromHeight(80),
+        child: Container(
+          height: 200,
+          decoration: const BoxDecoration(
+              gradient:
+                  LinearGradient(colors: [Colors.orangeAccent, Colors.green])),
+          child: Center(
+            child: ListTile(
+              trailing: IconButton(
+                  onPressed: () {},
+                  icon: const Icon(
+                    Icons.search_rounded,
+                    color: Colors.white,
+                    size: 30,
+                  )),
+              title: const Text(
+                "All Widgets",
+                style: TextStyle(color: Colors.white, fontSize: 22),
+              ),
+            ),
+          ),
+        ),
+      ),
       body: Center(
         child: SingleChildScrollView(
           child: Column(
