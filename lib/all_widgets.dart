@@ -22,7 +22,7 @@ class _AllWidgetsState extends State<AllWidgets> with TickerProviderStateMixin {
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(80),
         child: Container(
-          height: 200,
+          height: 150,
           decoration: const BoxDecoration(
               gradient:
                   LinearGradient(colors: [Colors.orangeAccent, Colors.green])),
