@@ -36,6 +36,7 @@ class _DemoPaymentState extends State<DemoPayment> {
 
   void _handleExternalWallet(ExternalWalletResponse response) {
     // Do something when an external wallet was selected
+    // Do something when an external wallet was selected
   }
 
   @override
